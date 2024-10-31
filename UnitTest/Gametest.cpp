@@ -20,7 +20,7 @@ namespace GameTest
 		TEST_METHOD(firstPlayerWinTest)
 		{
 			// Test case with player1 as a winner
-			Assert::AreEqual("Player1", determineWinner("Scissors", "Rock"));
+			Assert::AreEqual("Player1", determineWinner("Rock", "Scissors"));
 
 		}
 		TEST_METHOD(secondPlayerWinTest)
